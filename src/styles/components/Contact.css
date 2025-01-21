@@ -1,0 +1,22 @@
+.contact-container {
+  @apply max-w-2xl mx-auto text-center;
+}
+
+.contact-card {
+  @apply bg-white dark:bg-slate-800 rounded-xl shadow-sm p-8
+    border border-slate-200 dark:border-slate-700
+    bg-gradient-to-b from-slate-50 to-white 
+    dark:from-slate-800 dark:to-slate-900;
+}
+
+.contact-title {
+  @apply text-3xl font-bold text-slate-900 dark:text-slate-50 mb-4;
+}
+
+.contact-description {
+  @apply text-slate-600 dark:text-slate-400 mb-6;
+}
+
+.contact-buttons {
+  @apply flex justify-center gap-4;
+} 

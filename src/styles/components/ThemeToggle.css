@@ -1,0 +1,13 @@
+.theme-toggle {
+  @apply fixed bottom-6 right-6 p-3 rounded-full 
+    bg-white dark:bg-slate-800 
+    shadow-lg hover:shadow-xl 
+    ring-1 ring-gray-200 dark:ring-gray-700
+    transform hover:-translate-y-0.5 
+    transition-all duration-300
+    focus:outline-none focus:ring-2 focus:ring-primary-500;
+}
+
+.theme-icon {
+  @apply w-6 h-6 text-gray-700 dark:text-gray-200;
+} 

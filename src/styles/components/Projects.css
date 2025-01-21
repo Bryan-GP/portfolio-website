@@ -1,0 +1,19 @@
+.projects-container {
+  @apply mb-24;
+}
+
+.projects-header {
+  @apply text-center mb-12;
+}
+
+.projects-title {
+  @apply text-3xl font-bold text-slate-900 dark:text-slate-50 mb-4;
+}
+
+.projects-description {
+  @apply text-slate-600 dark:text-slate-300 max-w-2xl mx-auto;
+}
+
+.projects-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+} 

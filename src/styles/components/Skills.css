@@ -1,0 +1,34 @@
+.skills-container {
+  @apply mb-24;
+}
+
+.skills-header {
+  @apply text-center mb-12;
+}
+
+.skills-title {
+  @apply text-3xl font-bold text-slate-900 dark:text-slate-50 mb-4;
+}
+
+.skills-description {
+  @apply text-slate-600 dark:text-slate-400 max-w-2xl mx-auto;
+}
+
+.skills-grid {
+  @apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6;
+}
+
+.skill-card {
+  @apply bg-white dark:bg-slate-800 rounded-xl p-6 text-center
+    border border-slate-200 dark:border-slate-700
+    hover:border-slate-400 dark:hover:border-slate-500 transition-all
+    shadow-sm hover:shadow-md;
+}
+
+.skill-icon {
+  @apply text-slate-700 dark:text-slate-300 mb-3 text-2xl;
+}
+
+.skill-name {
+  @apply font-medium text-slate-800 dark:text-slate-200;
+} 
