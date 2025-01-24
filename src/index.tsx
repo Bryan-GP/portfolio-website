@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 // Correct the import statement for the App component
 import App from './App'
 
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
