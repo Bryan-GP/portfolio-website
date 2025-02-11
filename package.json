@@ -1,7 +1,6 @@
 {
-  "homepage": "https://Bryan-GP.github.io/portfolio-website",
+  "homepage": "https://Bryan-GP.github.io/portfolio-website/",
   "name": "react-app",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
