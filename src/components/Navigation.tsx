@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
-//import { useTheme } from '../context/ThemeContext';
 import '../styles/components/Navigation.css';
 
 export const Navigation = () => {
@@ -8,6 +7,11 @@ export const Navigation = () => {
   const location = useLocation();
 
   const isActive = (path: string) => location.pathname === path;
+
+  const handleNavigation = (path: string) => {
+    // Navigate to Home or other pages
+    return <Link to={path} />;
+  };
 
   return (
     <nav className="nav-container">
@@ -30,6 +34,7 @@ export const Navigation = () => {
                     ? 'nav-link-active'
                     : 'nav-link-inactive'
                 }`}
+                onClick={() => handleNavigation(item === 'Home' ? '/' : `/${item.toLowerCase()}`)}
               >
                 {item}
               </Link>
