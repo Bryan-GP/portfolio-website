@@ -12,7 +12,8 @@ const App = () => {
   return (
     <ThemeProvider>
       <div className="min-h-screen bg-white dark:bg-slate-900 transition-colors duration-200">
-        <Navigation />
+      <Home />
+      <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectsPage />} />
